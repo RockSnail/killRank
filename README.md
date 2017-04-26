@@ -2,10 +2,10 @@
 > 本项目为狼人杀积分排行榜项目，可以自行统计分数，本项目是用node开发的api，采用express框架开发，mongodb数据库，闲假之余写的，也是自己对node的练手吧。。
 
 ## 安装
-> 安装前请先确保已安装node和npm
-```
+> 安装前请先确保已安装node和npm  
+
 > npm install 
-```
+
 ## 运行
 #### 开发环境
 > node app.js
