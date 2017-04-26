@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<title>狼人杀积分排行榜</title>
+	</head>
+	<body>
+		<div class="main-box" id="app">
+			<ul class="rank-box">
+				<li class="rank-item" v-for="(item, index) in listData" >
+					<p class="score">积分：{{item.score}}</p>
+					<p class="wolf-rate">狼人胜率：{{item.wolfRate}}</p>
+					<p class="god-rate">神民胜率：{{item.godRate}}</p>
+					<p class="civilian-rate">平民胜率：{{item.civilianRate}}</p>
+					<p class="total-rate">总&nbsp;&nbsp;胜&nbsp;&nbsp;率：{{item.totalRate}}</p>
+					<p class="people-name">{{item.name}}</p>
+				</li>
+				<!--<li class="rank-item">
+					<p class="score">积分：10</p>
+					<p class="wolf-rate">狼人胜率：80%</p>
+					<p class="wolf-rate">神民胜率：80%</p>
+					<p class="wolf-rate">平民胜率：60%</p>
+					<p class="people-name">真预言家-周子涵</p>
+				</li>
+				
+				<li class="rank-item">
+					<p class="score">积分：8</p>
+					<p class="wolf-rate">狼人胜率：20%</p>
+					<p class="wolf-rate">神民胜率：10%</p>
+					<p class="wolf-rate">平民胜率：30%</p>
+					<p class="people-name">意识流-吴友鹏</p>
+				</li>
+				<li class="rank-item">
+					<p class="score">积分：4</p>
+					<p class="wolf-rate">狼人胜率：20%</p>
+					<p class="wolf-rate">神民胜率：10%</p>
+					<p class="wolf-rate">平民胜率：30%</p>
+					<p class="people-name">四阶女巫-向沁</p>
+				</li>
+				<li class="rank-item">
+					<p class="score">积分：12</p>
+					<p class="wolf-rate">狼人胜率：80%</p>
+					<p class="wolf-rate">神民胜率：10%</p>
+					<p class="wolf-rate">平民胜率：30%</p>
+					<p class="people-name">神刀手-流氓</p>
+				</li>-->
+			
+			</ul>
+		</div>
+	</body>
+	<script src="js/vue.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	
+
+</html>

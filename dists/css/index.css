@@ -1,0 +1,41 @@
+
+body{
+	width: 100%;
+	height: 3200px;
+	background: url(/img/body-bg.jpg) no-repeat center top;
+}
+
+.main-box{
+	margin: 0 auto;
+	width: 1200px;
+	height: 100%;
+	background: url(/img/main-box.png)  no-repeat center top;
+	background-size: contain;
+}
+
+.main-box .rank-box{
+	width: 1200px;
+	padding-top: 160px;
+	padding-left: 60px;
+}
+
+.main-box .rank-box .rank-item{
+	display: inline-block;
+	width: 200px;
+	height: 300px;
+	background: url(/img/wanted.jpeg) no-repeat center center;
+	background-size: contain;
+	
+	padding-top: 90px;
+	margin-right: 18px;
+	
+}
+.main-box .rank-box .rank-item p{
+	margin-left: 40px;
+}
+.main-box .rank-box .rank-item .people-name{
+	margin-left: 0;
+	margin-top: 22px;
+	font-size: 18px;
+	text-align: center;
+}

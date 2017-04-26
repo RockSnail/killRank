@@ -1,0 +1,115 @@
+@CHARSET "UTF-8";
+/********************************** reset.css ********************************/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, header, nav, section, article, aside, footer, figure, figcaption, menu, button{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: "Microsoft YaHei", Helvetica, STHeiTi, sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+ /* max-width:750px;*/
+  margin: 0 auto !important;
+  color: #222;
+  -webkit-user-select: none;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  outline: 0
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: 400;
+}
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th {
+  text-align: left;
+}
+fieldset, img {
+  border: 0;
+}
+
+li {
+  list-style: none;
+}
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+input, button, textarea, select, optgroup, option {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  outline: 0;
+}
+
+button{
+  -webkit-appearance: none;
+  border: none!important;
+  background: 0 0;
+}
+a{
+  -webkit-touch-callout: none;
+  text-decoration: none;
+}
+:focus {
+  outline: 0;
+  -webkit-tap-highlight-color: transparent
+}
+em, i {
+  font-style: normal;
+}
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing : border-box;
+  box-sizing : border-box;
+}
+a {
+  color: inherit
+}
+/* ���������ʽ */
+a[title="վ��ͳ��"] {
+  display: none;
+}
+
+.clearfix:after{content:'';display:table;clear:both}
+.clearfix{*zoom:1;}
+
+/* swiper */
+
+/*   .swiper-lazy {
+       display: none;
+   }
+
+   .swiper-lazy-loaded {
+       display: block;
+   }
+
+   .swiper-lazy-preloader {
+       width: 22px !important;
+       height: 22px !important;
+       margin-left: -11px !important;
+       margin-top: -11px !important;
+   }
+
+.swiper-pagination-bullet-active {
+    background: #f00500;
+}*/
+
+/* ȡ�� swiper-pagination ������Ч  */
+
+   /*
+   .swiper-pagination {
+       -webkit-transition: 0;
+       -moz-transition: 0;
+       -o-transition: 0;
+       transition: 0;
+   }
+   */
