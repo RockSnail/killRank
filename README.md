@@ -3,8 +3,9 @@
 
 ## 安装
 > 安装前请先确保已安装node和npm
+```
 > npm install 
-
+```
 ## 运行
 #### 开发环境
 > node app.js
